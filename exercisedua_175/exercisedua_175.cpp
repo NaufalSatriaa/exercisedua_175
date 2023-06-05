@@ -13,5 +13,6 @@ public:
 	~penerbit() {
 		cout << "Penerbit \"" << nama << "\" ada\n";
 	}
+	void tambahPengarang(pengarang*);
 	
 };
