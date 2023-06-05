@@ -68,3 +68,7 @@ void pengarang::cetakPenerbit() {
 	}
 	cout << endl;
 }
+
+void buku::tambahPengarang(pengarang* pPengarang) {
+	daftar_pengarang.push_back(pPengarang);
+}
