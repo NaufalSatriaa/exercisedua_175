@@ -7,11 +7,9 @@ class penerbit {
 public:
 	string nama;
 	vector<pengarang*> daftar_pengarang;
-	penerbit(string pNama) :nama(pNama) {
-		cout << "Penerbit \" " << nama << "\" ada\n";
+	penerbit(string pNama) :nama(pNama){
 	}
 	~penerbit() {
-		cout << "Penerbit \"" << nama << "\" ada\n";
 	}
 	void tambahPengarang(pengarang*);
 	void cetakPengarang();
@@ -22,10 +20,10 @@ public:
 	string nama;
 	vector<penerbit*> daftar_penerbit;
 	pengarang(string pNama) :nama(pNama) {
-		cout << "pengarang \"" << nama << "\" ada\n";
+		
 	}
 	~pengarang() {
-		cout << "pengarang \"" << nama << "\" ada\n";
+		
 	}
 	void tambahPenerbit(penerbit*);
 	void cetakPenerbit();
@@ -36,10 +34,10 @@ public:
 	string nama;
 	vector<pengarang*> daftar_pengarang;
 	buku(string pNama) :nama(pNama) {
-		cout << "buku \"" << nama << "\" ada\n";
+		
 	}
 	~buku() {
-		cout << "buku \"" << nama << "\" ada\n";
+		
 	}
 	void tambahPengarang(pengarang*);
 	void cetakPengarang();
@@ -91,6 +89,31 @@ int main() {
 	buku* varBuku1 = new buku("fisika" "Algoritma");
 	buku* varBuku2 = new buku("Basisdata");
 	buku* varBuku3 = new buku("Dasar Pemograman");
-	buku* varBuku4 = new buku("Matematika" "Multimedia1");
+	buku* varBuku4 = new buku("Matematika" "Multimedia 1");
+
+	varPengarang1->tambahPenerbit(varPenerbit1);
+	varPengarang2->tambahPenerbit(varPenerbit1);
+	varPengarang4->tambahPenerbit(varPenerbit1);
+	varPengarang3->tambahPenerbit(varPenerbit2);
+	varPengarang4->tambahPenerbit(varPenerbit2);
+
+	varPenerbit1->cetakPengarang();
+	varPenerbit2->cetakPengarang();
+	varPengarang1->cetakPenerbit();
+	varPengarang2->cetakPenerbit();
+	varPengarang3->cetakPenerbit();
+	varPengarang4->cetakPenerbit();
+
+	varBuku1->tambahPengarang(varPengarang1);
+	varBuku2->tambahPengarang(varPengarang2);
+	varBuku3->tambahPengarang(varPengarang3);
+	varBuku4->tambahPengarang(varPengarang4);
+
+	varBuku1->cetakPengarang();
+	varBuku2->cetakPengarang();
+	varBuku3->cetakPengarang();
+	varBuku4->cetakPengarang();
+
 	
+	return 0;
 }
