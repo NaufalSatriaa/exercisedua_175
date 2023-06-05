@@ -18,5 +18,7 @@ public:
 };
 
 class pengarang {
-
+public:
+	string nama;
+	
 };
