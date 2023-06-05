@@ -20,5 +20,12 @@ public:
 class pengarang {
 public:
 	string nama;
+	vector<penerbit*> daftar_penerbit;
+	pengarang(string pNama) :nama(pNama) {
+		cout << "pengarang \"" << nama << "\" ada\n";
+	}
+	~pengarang() {
+		cout << "pengarang \"" << nama << "\" ada\n";
+	}
 	
 };
