@@ -4,5 +4,7 @@ using namespace std;
 
 class pengarang;
 class penerbit {
-
+public:
+	string nama;
+	
 };
