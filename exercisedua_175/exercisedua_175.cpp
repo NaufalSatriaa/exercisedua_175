@@ -34,5 +34,12 @@ public:
 class buku {
 public:
 	string nama;
+	vector<pengarang*> daftar_pengarang;
+	buku(string pNama) :nama(pNama) {
+		cout << "buku \"" << nama << "\" ada\n";
+	}
+	~buku() {
+		cout << "buku \"" << nama << "\" ada\n";
+	}
 
 };
