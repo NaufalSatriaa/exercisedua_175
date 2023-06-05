@@ -14,5 +14,5 @@ public:
 		cout << "Penerbit \"" << nama << "\" ada\n";
 	}
 	void tambahPengarang(pengarang*);
-	
+	void cetakPengarang();
 };
