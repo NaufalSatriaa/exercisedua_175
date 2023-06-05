@@ -41,5 +41,5 @@ public:
 	~buku() {
 		cout << "buku \"" << nama << "\" ada\n";
 	}
-
+	void tambahPengarang(pengarang*);
 };
