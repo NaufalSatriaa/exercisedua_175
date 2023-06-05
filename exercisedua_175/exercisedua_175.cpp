@@ -82,5 +82,8 @@ void buku::cetakPengarang() {
 }
 
 int main() {
-
+	pengarang* varPengarang1 = new pengarang("Joko");
+	pengarang* varPengarang2 = new pengarang("Lia");
+	pengarang* varPengarang3 = new pengarang("Asroni");
+	pengarang* varPengarang4 = new pengarang("Giga");
 }
