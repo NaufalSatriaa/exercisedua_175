@@ -86,4 +86,45 @@ int main() {
 	pengarang* varPengarang2 = new pengarang("Lia");
 	pengarang* varPengarang3 = new pengarang("Asroni");
 	pengarang* varPengarang4 = new pengarang("Giga");
+	penerbit* varPenerbit1 = new penerbit("Gama Pres");
+	penerbit* varPenerbit2 = new penerbit("Intan Parwira");
+	buku* varBuku1 = new buku("fisika" "Algoritma");
+	buku* varBuku2 = new buku("Basisdata");
+	buku* varBuku3 = new buku("Dasar Pemograman");
+	buku* varBuku4 = new buku("Matematika" "Multimedia1");
+	varPengarang1->tambahPenerbit(varPenerbit1);
+	varPengarang2->tambahPenerbit(varPenerbit1);
+	varPengarang4->tambahPenerbit(varPenerbit1);
+	varPengarang3->tambahPenerbit(varPenerbit2);
+	varPengarang4->tambahPenerbit(varPenerbit2);
+
+	varPengarang1->cetakPenerbit();
+	varPengarang2->cetakPenerbit();
+	varPengarang3->cetakPenerbit();
+	varPengarang4->cetakPenerbit();
+	varPenerbit1->cetakPengarang();
+	varPenerbit2->cetakPengarang();
+
+	varBuku1->tambahPengarang(varPengarang1);
+	varBuku2->tambahPengarang(varPengarang2);
+	varBuku3->tambahPengarang(varPengarang3);
+	varBuku4->tambahPengarang(varPengarang4);
+
+	varBuku1->cetakPengarang();
+	varBuku2->cetakPengarang();
+	varBuku3->cetakPengarang();
+	varBuku4->cetakPengarang();
+
+	delete varPengarang1;
+	delete varPengarang2;
+	delete varPengarang3;
+	delete varPengarang4;
+	delete varPenerbit1;
+	delete varPenerbit2;
+	delete varBuku1;
+	delete varBuku2;
+	delete varBuku3;
+	delete varBuku4;
+
+	return 0;
 }
