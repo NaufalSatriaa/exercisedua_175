@@ -56,3 +56,7 @@ void penerbit::cetakPengarang() {
 	}
 	cout << endl;
 }
+
+void pengarang::tambahPenerbit(penerbit* pPenerbit) {
+	daftar_penerbit.push_back(pPenerbit);
+}
