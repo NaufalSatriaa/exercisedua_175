@@ -28,4 +28,5 @@ public:
 		cout << "pengarang \"" << nama << "\" ada\n";
 	}
 	void tambahPenerbit(penerbit*);
+	void cetakPenerbit();
 };
