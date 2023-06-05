@@ -27,5 +27,5 @@ public:
 	~pengarang() {
 		cout << "pengarang \"" << nama << "\" ada\n";
 	}
-	
+	void tambahPenerbit(penerbit*);
 };
