@@ -44,3 +44,7 @@ public:
 	void tambahPengarang(pengarang*);
 	void cetakPengarang();
 };
+
+void penerbit::tambahPengarang(pengarang* pPengarang) {
+	daftar_pengarang.push_back(pPengarang);
+}
