@@ -72,3 +72,11 @@ void pengarang::cetakPenerbit() {
 void buku::tambahPengarang(pengarang* pPengarang) {
 	daftar_pengarang.push_back(pPengarang);
 }
+
+void buku::cetakPengarang() {
+	cout << "Daftar buku yang dikarang\"" << this->nama << "\":\n";
+	for (auto& a : daftar_pengarang) {
+		cout << a->nama << "\n";
+	}
+	cout << endl;
+}
