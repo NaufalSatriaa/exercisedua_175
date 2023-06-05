@@ -32,5 +32,7 @@ public:
 };
 
 class buku {
+public:
+	string nama;
 
 };
