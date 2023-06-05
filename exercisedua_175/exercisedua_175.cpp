@@ -16,3 +16,7 @@ public:
 	void tambahPengarang(pengarang*);
 	void cetakPengarang();
 };
+
+class pengarang {
+
+};
