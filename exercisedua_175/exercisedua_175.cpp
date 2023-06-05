@@ -42,4 +42,5 @@ public:
 		cout << "buku \"" << nama << "\" ada\n";
 	}
 	void tambahPengarang(pengarang*);
+	void cetakPengarang();
 };
