@@ -88,4 +88,9 @@ int main() {
 	pengarang* varPengarang4 = new pengarang("Giga");
 	penerbit* varPenerbit1 = new penerbit("Gama Pres");
 	penerbit* varPenerbit2 = new penerbit("Intan Parwira");	
+	buku* varBuku1 = new buku("fisika" "Algoritma");
+	buku* varBuku2 = new buku("Basisdata");
+	buku* varBuku3 = new buku("Dasar Pemograman");
+	buku* varBuku4 = new buku("Matematika" "Multimedia1");
+	
 }
