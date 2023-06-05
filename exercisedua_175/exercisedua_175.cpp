@@ -30,3 +30,7 @@ public:
 	void tambahPenerbit(penerbit*);
 	void cetakPenerbit();
 };
+
+class buku {
+
+};
