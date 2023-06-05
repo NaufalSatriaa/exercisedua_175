@@ -80,3 +80,7 @@ void buku::cetakPengarang() {
 	}
 	cout << endl;
 }
+
+int main() {
+
+}
