@@ -3,3 +3,6 @@
 using namespace std;
 
 class pengarang;
+class penerbit {
+
+};
